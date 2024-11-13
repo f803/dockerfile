@@ -2,8 +2,13 @@
 - билдится
 - работает
 
-Все делал сам.  
-Откуда взял приложение: [линк](https://github.com/github.com/fersantxez/simpleweb-java)  
+Запускается .jar, ищет порт по переменной окружения $PORT и светится  
+А nginx просто проксирует на локалхост, но другой порт
+
+![Example app](https://sun9-74.userapi.com/impg/9uJ38est37J_ivwEbJX94dytARJit02KPmHo_w/XpOVCa8URrk.jpg?size=406x196&quality=96&sign=9fdd3c94dadb6d0bf185253cfb698db2&type=album)
+
+ Ни у кого не брал. Действовал из спортивного интереса.  
+Откуда взял приложение: [линк](https://github.com/fersantxez/simpleweb-java)  
 Там в usage есть *docker image is available*, но я туда не переходил. Даже сейчас, пока пишу этот readme.md
 
 # Dockerfile
