@@ -1,7 +1,7 @@
 FROM alpine/java:22.0.2-jdk
 
 EXPOSE 80 443
-LABEL author="Ivan Rudakov"
+MAINTAINER author="Ivan Rudakov"
 LABEL pray="Sasha ne kikay s internaturi"
 ENV PORT0=8080
 RUN apk update && apk add nginx
